@@ -1,5 +1,7 @@
 # Elevate-Labs-T4 - Firewall
 
+## The complete process, along with screenshots and detailed steps, is documented in TASK 3.docx
+
 ## Firewall
 
 A **firewall** acts as a security barrier between a trusted internal network and untrusted external networks, such as the internet.  
