@@ -22,16 +22,15 @@ It provides **context-aware traffic filtering**, offering essential protection f
 ---
 
 ## Commands Used
-
 ```powershell
-# Add a rule to block Telnet (TCP port 23)
+# To lList current firewa l rules
+netsh advfirewall firewall show rule name=all
+
+# Command to block Telnet
 netsh advfirewall firewall add rule name="Block Telnet" protocol=TCP dir=in localport=23 action=block
 
-# List the created rule
-netsh advfirewall firewall show rule name="Block Telnet"
-
-# Test if port 23 is open (should be blocked)
+# Test the rule
 Test-netConnection -ComputerName 127.0.0.1 -Port 23
 
-# Remove the rule to restore the original state
+# Remove a rule
 netsh advfirewall firewall delete rule name="Block Telnet"
