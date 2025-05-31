@@ -1,6 +1,6 @@
 # Elevate-Labs-T4 - Firewall
 
-## The complete process, along with screenshots and detailed steps, is documented in TASK 3.docx
+**Note:** The complete process, along with screenshots and detailed steps, is documented in TASK 3.docx
 
 ## Firewall
 
