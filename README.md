@@ -23,7 +23,7 @@ It provides **context-aware traffic filtering**, offering essential protection f
 
 ## Commands Used
 ```powershell
-# To lList current firewa l rules
+# To lList current firewall rules
 netsh advfirewall firewall show rule name=all
 
 # Command to block Telnet
